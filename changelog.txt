@@ -1,0 +1,28 @@
+[Translated from French to English]
+
+First release: Version 0.1 of the game
+A single file: game.py
+Features:
+
+- a randomly generated ASCII map,
+- a player represented by @,
+- walls # and floor .,
+- movement with ZQSD (or WASD depending on your keyboard),
+- rendering refreshes with each action.
+___________________________________________________________________
+⚔️ What v0.2 will add:
+
+- Random enemy spawns (represented by an "E").
+- Simple enemy movement (minimal AI).
+- If an enemy reaches the player → Game Over.
+- A death screen and automatic restart.
+- Slightly more consistent map generation to avoid overly dense walls.
+_____________________________________________________________________
+  🛠️ v0.3 — Real-time loop + clean spawn
+Here's the new version of the game, featuring:
+
+- a real-time loop (enemies move every 200ms),
+- a non-blocking entry system,
+- clean spawn (enemies never appear on the player),
+- a more dynamic pace.
+______________________________________________________________________
